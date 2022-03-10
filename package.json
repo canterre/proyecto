@@ -1,11 +1,23 @@
 {
   "name": "proyect-web-cande",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/canterre/proyecto.git"
+  },
+  "bugs": {
+    "url": "https://github.com/canterre/proyecto/issues"
+  },
+  "homepage": "https://github.com/canterre/proyecto#readme",
+  "description": "",
+  "devDependencies": {
+    "node": "^17.5.0",
+    "nodemon": "^2.0.15"
+  }
 }

@@ -28,12 +28,16 @@ body {
 }
 
 .banner {
-  background-image: url("https://w.wallhaven.cc/full/k7/wallhaven-k7v9yq.png");
+  background-image: url("https://www.blogdelfotografo.com/wp-content/uploads/2021/12/Fondo_Negro_9.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 80rem;
+  height: 20rem;
+  font-family: "Staatliches", cursive;
+  color: #fff;
+  width: 100%;
+  text-align: center;
 }
 
 .card {

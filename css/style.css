@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  /* 1rem = 10px */
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Staatliches", cursive;
+  font-size: 1.6rem;
+  line-height: 1.6;
+}
+
+.navbar-brand {
+  width: 10rem;
+  height: auto;
+}
+
+.navbar-brand img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.banner {
+  background-image: url("https://w.wallhaven.cc/full/k7/wallhaven-k7v9yq.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 80rem;
+}
+
+.card {
+  border-radius: 0.5rem;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.3);
+}
+
+.card img {
+  border-radius: 0.5rem;
+}
+
+.card .card-title {
+  font-size: 1.6rem;
+  font-family: verdana, arial, helvetica;
+  font-weight: bold;
+  color: #000;
+  text-align: center;
+}
+
+.card p {
+  font-size: 1.2rem;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: bold;
+  color: #000;
+  text-align: center;
+}
+
+.carousel {
+  border-radius: 0.5rem;
+}
+
+.footer {
+  background-color: #8a6262;
+  color: #000;
+}
+
+.red-social-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.red-social-container .item {
+  width: 3rem;
+  height: auto;
+}
+
+.red-social-container .item img {
+  width: 100%;
+  height: auto;
+  transition: all 0.3s;
+}
+
+.red-social-container .item img:hover {
+  transform: scale(1.5);
+  border: 0.1rem solid #fff;
+  border-radius: 2rem;
+  opacity: 0.8;
+  padding: 0.5rem;
+}
+
+/*# sourceMappingURL=style.css.map */
